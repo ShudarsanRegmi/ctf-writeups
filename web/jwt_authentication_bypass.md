@@ -14,3 +14,6 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdXRoIjoxNzIwMzE2MTMzNjczLCJhZ2VudCI6Ik1
 eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdXRoIjoxNzIwMzE2MTMzNjczLCJhZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMjAuMC42MDk5LjcxIFNhZmFyaS81MzcuMzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MjAzMTYxMzR9.
 ```
 **Flag:** picoCTF{succ3ss_@u7h3nt1c@710n_72bf8bd5}
+
+**To Read*
+- [Owasp on jwt security](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/06-Session_Management_Testing/10-Testing_JSON_Web_Tokens)
