@@ -15,5 +15,6 @@ Had a login page with field username and password. Although it didn't show any c
 ```http
 username=admin'+or+1=1--&password=asdf&debug=0
 ```
+**Flag:**picoCTF{L00k5_l1k3_y0u_solv3d_it_ec8a64c7}
 ![image](https://github.com/ShudarsanRegmi/ctf-writeups/assets/65646203/7e18200b-3491-4423-bde7-3ef0cce0ed1a)
 
